@@ -1,0 +1,122 @@
+cd /ssh:dc2jump1.mgmt.savvis.net:
+ls
+dc2 vl30
+sshadmin s617985dc2vl50.ushrnd2
+sshadmin s617985ch3vl50.uschcg6
+cd /ssh:dc2jump1.mgmt.savvis.net/
+cd /ssh:dc2jump1.mgmt.savvis.net:/
+tmux
+TERM=xterm tmux
+clear
+
+cd /
+ls
+hostname
+cd /ssh:dc2jump1.mgmt.savvis.net:/
+ls
+hostname
+exit
+cd /ssh:dc2jump1.mgmt.savvis.net:/
+pwd
+cd
+ls
+pwd
+cd /ssh:dc2jump1.mgmt.savvis.net:ssh:s617985ch3vl50.uschcg6:/
+cd /ssh:dc2jump1.mgmt.savvis.net/
+cd /ssh:dc2jump1.mgmt.savvis.net:/
+ls
+cd ~dkettman
+pwd
+ls
+cd /ssh:dkettman@dc2jump1.mgmt.savvis.net:/
+ls
+cd home/dkettman
+ls
+cd
+cd emacs.d
+cd .emacs.d
+ls
+init.el
+help
+find-file init.el
+find-file init.el
+cd /ssh:dc2jump1.mgmt.savvis.net:~/
+ll
+ls -la
+asdf
+clear
+
+clear
+
+ls
+ls -latr
+random text
+tool-bar-mode 
+setq tool-bar-mode nil
+ls
+cp usr_audit.csv ~/
+cd git
+ls
+cd dwmstatus/
+ls
+git status
+magit-status
+cd ..
+ls -latr
+cd SallieMaeLinux/
+ls -la
+magit-status
+clear
+
+cd ../..
+ls
+cd
+ls
+cd git
+ls
+cd dwmstatus
+ls
+ls -la
+git status
+env
+ansible --hep
+ansible --help
+cd -
+cd ..
+cd /ssh:dc2jump1.mgmt.savvis.net:~/
+cd ansible
+ls
+cd work
+ls
+cd playbooks/
+ls
+cd ../sap-hana
+ls
+cd ../projects
+ls
+cd move_usr_openv_to_data01/
+ls
+ls
+cd tasks
+ls
+find-file main.yml
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cat sap-hana/
+cat sap-hana.yml
+cd projects/
+ls
+cd move_usr_openv_to_data01/
+ls
+cd ..
+vi test.yml
+cp ../sap-hana.yml .
+mv sap-hana.yml test.yml
+find-file test.yml
+find-file inventory
+ansible-playbook test.yml -i inventory -b -c sshadmin
